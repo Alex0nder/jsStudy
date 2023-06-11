@@ -129,3 +129,20 @@
 //Object Array
 //0x7213
 // [1, 2, 3]
+
+//New variable objectA
+const objectA = {
+    a: 10,
+    b: true
+}
+
+//Copy variable objectA to new objectA
+const copyOfA = objectA
+
+//New link data in objectA
+copyOfA.a = 20
+
+//New variable objectA
+copyOfA.c = 'abc'
+
+console.log(objectA)
